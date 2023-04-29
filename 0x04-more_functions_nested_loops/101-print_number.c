@@ -11,7 +11,6 @@ void print_number(int n)
 
 {
 	unsigned int k = n;
-	
 	if (n < 0)
 	{
 	n *= -1;
