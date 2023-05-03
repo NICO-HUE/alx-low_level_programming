@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
-*main - Generates random valid passwordss for the
+*main - Generates random valid passwords for the
 * program 101-crackme.
 *Return: Always 0.
 */
@@ -35,7 +35,7 @@ int main(void)
 	break;
 	}
 	}
-	for (index = 0; password(index); index++)
+	for (index = 0; password[index]; index++)
 	{
 	password[index] -= diff_half2;
 	break;
